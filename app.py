@@ -23,6 +23,6 @@ def index():    #用來回應路徑 / 的處理方式
 app.run()     
 
 if (os.environ['localdebug']=='true'):
-    app.run(port=3000)
+    app.run(port=5000)
 else:
-    app.run(port=3000, host='0.0.0.0')
+    app.run(port=5000, host='0.0.0.0')
