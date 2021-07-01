@@ -1,22 +1,40 @@
 # !/usr/bin/python2
 # coding:utf-8
 
-# 安裝 pip3 install Flask
 import os
 from dotenv import load_dotenv
-from flask import Flask     #載入Flask物件
+from flask import *
+import json 
+import requests   
+from flask_cors import CORS, cross_origin
+
 
 load_dotenv()
 os.environ
 
 #建立 Application 物件,
 app=Flask(__name__)     
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 
-# 建立路徑 / 對應的處理函式
 @app.route("/")     
-def index():    #用來回應路徑 / 的處理方式
-    return("Hello Flask")    #回傳網站首頁的內容
+def index(): 
+    return("Hello Flask")  
+
+@app.route("/test", methods=["POST"])     
+@cross_origin()
+def test():
+    insertValues=request.get_json()
+    userName=insertValues["name"]
+    return Response(
+                response=json.dumps({
+                    "error": True,
+                    "message": userName+": cross_origin safe!"
+                }),
+                status=200,
+                content_type='application/json'
+            )
 
 
 #啟動網站伺服器  
