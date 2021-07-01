@@ -19,9 +19,7 @@ def index():    #用來回應路徑 / 的處理方式
     return("Hello Flask")    #回傳網站首頁的內容
 
 
-#啟動網站伺服器
-app.run()     
-
+#啟動網站伺服器  
 if (os.environ['localdebug']=='true'):
     app.run(port=5000)
 else:
