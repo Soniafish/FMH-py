@@ -2,8 +2,12 @@
 # coding:utf-8
 
 # 安裝 pip3 install Flask
-
+import os
+from dotenv import load_dotenv
 from flask import Flask     #載入Flask物件
+
+load_dotenv()
+os.environ
 
 #建立 Application 物件,
 app=Flask(__name__)     
@@ -17,3 +21,8 @@ def index():    #用來回應路徑 / 的處理方式
 
 #啟動網站伺服器
 app.run()     
+
+if (os.environ['localdebug']=='true'):
+    app.run(port=3000)
+else:
+    app.run(port=3000, host='0.0.0.0')
