@@ -1,0 +1,66 @@
+data1-1.json	//中正區 1000以下
+data1-2.json	//中正區 1000-1500萬
+data1-3.json	//中正區 1500-2000萬
+data1-4.json	//中正區 2000萬以上
+
+data2-1.json	//大同區 1000萬以下
+data2-2.json	//大同區 1000-1500萬
+data2-3.json	//大同區 1500-2000萬
+data2-4.json	//大同區 2000萬以上
+
+data3-1.json	//中山區 1000萬以下
+data3-2.json	//中山區 1000-1500萬
+data3-3.json	//中山區 1500-2000萬
+data3-4.json	//中山區 2000萬以上
+
+data3-1.json	//松山區 1000萬以下
+data3-2.json	//松山區 1000-1500萬
+data3-3.json	//松山區 1500-2000萬
+data3-4.json	//松山區 2000萬以上
+
+data5-1.json	//大安區 1000萬以下
+data5-2.json	//大安區 1000-1500萬
+data5-3.json	//大安區 1500-2000萬
+data5-4.json	//大安區 2000萬以上
+
+data6-1.json	//萬華區 1000萬以下
+data6-2.json	//萬華區 1000-1500萬
+data6-3.json	//萬華區 1500-2000萬
+data6-4.json	//萬華區 2000萬以上
+
+data7-1.json	//信義區 1000萬以下
+data7-2.json	//信義區 1000-1500萬
+data7-3.json	//信義區 1500-2000萬
+data7-4.json	//信義區 2000萬以上
+
+—————————————————————————————————————————
+
+database-FMH
+table-house
+
+
+col:table-house			col:data1-1.json
+
+houseid房屋編號			”houseid": "S9504547",
+area_misc房屋簡述		“area": "住宅 電梯大樓 2房1廳 13.4坪",
+address地址(含社區)		”address": "仁愛新宿大樓 中正區-臨沂街",
+title標題				“title": "東門捷運極品低總價2房(歡迎屋主委託怡靜",
+photo_src圖片			“photo_src": "https://hp2.591.com.tw/house/active/2021/06/18/162399943615710300_342x255.crop.jpg",
+layout_misc總格局		“layout_str": "2房1廳",
+	金額				“price_arr": {
+house_price金額-數字			“price": "898",
+house_price_unit金額-單位		“unit": "萬元"
+            			},
+area_price單價			”area_price": "66.9萬/坪",
+country鄉鎮市區			“section": "中正區",
+community社區			“community_addr": "仁愛新宿大樓",
+kindStr房屋類型 		"kindStr": "住宅",
+layout格局				”layoutStr": "2房",
+	管理費				”priceUnit": {
+management_fee管理費-數字			”price": "898",
+management_fee_unit管理費-單位		”unit": "元/月"
+           				},
+	總坪數				"areaUnit": {
+house_size總坪數-數字			”area": 13.4,
+house_size_unit總坪數-單位		”unit": "坪"
+            			},
