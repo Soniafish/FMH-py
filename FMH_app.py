@@ -39,9 +39,14 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route("/") 
 def index(): 
+    return("Wellcome FHM page!!")  
+
+
+@app.route("/fmh") 
+def index(): 
     return("Wellcome FHM api page!!")  
 
-@app.route("/test", methods=["POST"])
+@app.route("/fmh/test", methods=["POST"])
 @cross_origin()
 def test():
     insertValues=request.get_json()
@@ -56,7 +61,7 @@ def test():
             )
 
 
-@app.route("/api/houses", methods=["GET"])
+@app.route("/fmh/api/houses", methods=["POST"])  #取得房屋物件列表
 def handleHouses():
     # 建立cursor物件
     connection_object = connection_pool.get_connection()
