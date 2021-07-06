@@ -60,9 +60,13 @@ def test():
                 content_type='application/json'
             )
 
-
-@app.route("/fmh/api/houses", methods=["POST"])  #取得房屋物件列表
+@app.route("/fmh/api/houses", methods=["POST", "OPTION"])  #取得房屋物件列表
+@cross_origin()
 def handleHouses():
+
+    if request.method=="OPTION":
+        return 
+        
     # 建立cursor物件
     connection_object = connection_pool.get_connection()
     cursor = connection_object.cursor()
