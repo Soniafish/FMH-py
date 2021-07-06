@@ -43,7 +43,7 @@ def index():
 
 
 @app.route("/fmh") 
-def index(): 
+def fmh(): 
     return("Wellcome FHM api page!!")  
 
 @app.route("/fmh/test", methods=["POST"])
