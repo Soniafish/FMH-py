@@ -32,11 +32,11 @@ cursor=cnnt.cursor()
 
 # cursor.execute("create database FMH")
 cursor.execute("use FMH")
-# houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, country, community, kindStr, layout, management_fee, management_fee_unit, house_size, house_size_unit
-# cursor.execute("create table house(houseid VARCHAR(255) PRIMARY KEY, area_misc VARCHAR(255) NOT NULL, address VARCHAR(255) NOT NULL, title VARCHAR(255) NOT NULL, photo_src VARCHAR(255) NOT NULL, layout_misc VARCHAR(255) NOT NULL, house_price VARCHAR(255) NOT NULL, house_price_unit VARCHAR(255) NOT NULL, area_price VARCHAR(255) NOT NULL, country VARCHAR(255) NOT NULL, community VARCHAR(255), kindStr VARCHAR(255) NOT NULL, layout VARCHAR(255) NOT NULL, management_fee VARCHAR(255), management_fee_unit VARCHAR(255), house_size FLOAT NOT NULL, house_size_unit VARCHAR(255) NOT NULL)")
+# houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, country, community, kindStr, layout, management_fee, management_fee_unit, house_size, house_size_unit, lat, lng
+# cursor.execute("create table house(houseid VARCHAR(255) PRIMARY KEY, area_misc VARCHAR(255) NOT NULL, address VARCHAR(255) NOT NULL, title VARCHAR(255) NOT NULL, photo_src VARCHAR(255) NOT NULL, layout_misc VARCHAR(255) NOT NULL, house_price int NOT NULL, house_price_unit VARCHAR(255) NOT NULL, area_price VARCHAR(255) NOT NULL, country VARCHAR(255) NOT NULL, community VARCHAR(255), kindStr VARCHAR(255) NOT NULL, layout VARCHAR(255) NOT NULL, management_fee VARCHAR(255), management_fee_unit VARCHAR(255), house_size FLOAT NOT NULL, house_size_unit VARCHAR(255) NOT NULL, lat FLOAT NOT NULL, lng FLOAT NOT NULL)")
 
 data=None
-with open("data3-4.json", mode="r") as file:
+with open("data-map7-4.json", mode="r") as file:
     data=json.load(file)
     data=data["data"]
 
@@ -61,18 +61,14 @@ for item in data:
     management_fee_unit=item["priceUnit"]["unit"] #管理費-單位
     house_size=item["areaUnit"]["area"] #總坪數-數字
     house_size_unit=item["areaUnit"]["unit"] #總坪數-單位
+    lat=item["lat"] #經度
+    lng=item["lng"] #緯度
 
-    val = (houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, country, community, kindStr, layout, management_fee, management_fee_unit, house_size, house_size_unit)
+    val = (houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, country, community, kindStr, layout, management_fee, management_fee_unit, house_size, house_size_unit, lat, lng)
     valList.append(val)
     # print(val)
     
-sql = "INSERT INTO house (houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, country, community, kindStr, layout, management_fee, management_fee_unit, house_size, house_size_unit) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+sql = "INSERT INTO house (houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, country, community, kindStr, layout, management_fee, management_fee_unit, house_size, house_size_unit, lat, lng) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
 cursor.executemany(sql, valList)
     
 cnnt.commit()    
-
-# string="1,450"
-# string=string.replace(",", "")
-# number=int(string)
-# print(number)
-# print(type(number))
