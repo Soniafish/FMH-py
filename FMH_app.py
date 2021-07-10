@@ -85,13 +85,13 @@ def handleHouses():
         statement=f" where address like '%"+keyword+"%'"
     
     # 有filter
-    elif filter_country!="all" and filter_layout!="all" and filter_price_min!=-1 and filter_size_min!=-1:
+    elif filter_country!="all" or filter_layout!="all" or filter_price_min!=-1 or filter_size_min!=-1:
         statement = " where"
         firstFilter=True
-        if filter_country!="":
+        if filter_country!="all":
             statement = statement +" (country ='"+filter_country+"')"
             firstFilter=False
-        if filter_layout!="":
+        if filter_layout!="all":
             if firstFilter:
                 statement = statement + " (layout ='"+filter_layout+"')"
             else:
@@ -128,15 +128,15 @@ def handleHouses():
             response=json.dumps({
                 "sumItem": sumItem,
                 "totalPage": totalPage,
-                "nextPage": None,
+                "nextPage": -1,
                 "data": []
             }),
             status=200,
             content_type='application/json'
         )
-    elif count[0] <  20 * (page + 1):
+    elif count[0] <  20 * page :
         p_count = count[0] % 20
-        nextPage = None
+        nextPage = -1
         # print("p_count:", p_count)
 
     # 取得符合條件的資料, 並加入排序
