@@ -141,9 +141,9 @@ def handleHouses():
 
     # 取得符合條件的資料, 並加入排序
     if sortby_kind !="":        
-        filterStatement = "select houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price from house" + statement + " order by " + sortby_kind + " " + sortby_order
+        filterStatement = "select houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, lat, lng from house" + statement + " order by " + sortby_kind + " " + sortby_order
     else:
-        filterStatement = "select houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price from house" + statement + " order by houseid"
+        filterStatement = "select houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, lat, lng from house" + statement + " order by houseid"
     print("filterStatement:", filterStatement)
 
     # 取得符合條件且對應頁碼的資料
@@ -167,7 +167,9 @@ def handleHouses():
                 "layout_misc": item[5],
                 "house_price": item[6],
                 "house_price_unit": item[7],
-                "area_price": item[8]
+                "area_price": item[8],
+                "lat": item[9],
+                "lng": item[10]
             })
 
         # 關閉db連線
@@ -199,7 +201,111 @@ def handleHouses():
             content_type='application/json'
         )
 
- 
+@app.route("/fmh/api/house", methods=["POST", "OPTION"])  #取得房屋物件資料
+@cross_origin()
+def handleHouse():
+
+    if request.method=="OPTION":
+        return 
+
+    # 建立cursor物件
+    connection_object = connection_pool.get_connection()
+    cursor = connection_object.cursor()
+    print("connection_object")
+    print(connection_object)
+    print(cursor) 
+
+    insertValues=request.get_json()
+    houseid=insertValues["houseid"]    #預設page值為1
+    filterStatement = "select houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price from house where houseid='"+houseid+"'"
+    cursor.execute(filterStatement)
+    filterData=cursor.fetchone() #取得物件
+    print("filterData")
+    print(filterData)
+
+    if filterData:
+        data={
+            "houseid": filterData[0],
+            "area_misc": filterData[1],
+            "address": filterData[2],
+            "title": filterData[3],
+            "photo_src": filterData[4],
+            "layout_misc": filterData[5],
+            "house_price": filterData[6],
+            "house_price_unit": filterData[7],
+            "area_price": filterData[8],
+        }
+
+        # 實價登錄
+        searchAddress=filterData[2].split("-")
+        print(searchAddress)
+        searchRoad=searchAddress[1]
+        print(searchRoad)
+        filterStatement = f"select address, date, floor, total_floor, building_state, house_age, building_size, pattern_room, pattern_hall, total_price, unit_price, cart_price from deal where address like '%"+searchRoad+"%' order by date desc"
+        cursor.execute(filterStatement)
+        filterData2=cursor.fetchall() #取得物件
+        print("filterData2")
+        print(filterData2[0])
+        dealData=[]
+        if filterData2:
+            for item in filterData2:
+                dealData.append({
+                    "address": item[0],
+                    "date": item[1],
+                    "floor": item[2],
+                    "total_floor": item[3],
+                    "building_state": item[4],
+                    "house_age": item[5],
+                    "building_size": item[6],
+                    "pattern_room": item[7],
+                    "pattern_hall": item[8],
+                    "total_price": item[9],
+                    "unit_price": item[10],
+                    "cart_price": item[11]
+                })
+
+        # 關閉db連線
+        cursor.close()
+        connection_object.close()
+
+        # print(data)
+        return Response(
+                response=json.dumps({
+                    "data": {
+                        "houseInfo": data, 
+                        "dealList": dealData,    
+                    }
+                }),
+                status=200,
+                content_type='application/json'
+            )
+
+    else:
+        # 關閉db連線
+        cursor.close()
+        connection_object.close()
+
+        return Response(
+            response=json.dumps({
+                "error": "true",
+                "message": "物件編號不正確"
+            }),
+            status=400,
+            content_type='application/json'
+        )
+
+    # 關閉db連線
+    cursor.close()
+    connection_object.close()
+
+    return Response(
+            response=json.dumps({
+                "error": "true",
+                "message": "系統錯誤"
+            }),
+            status=500,
+            content_type='application/json'
+        )
 
 #啟動網站伺服器  
 if (os.environ['localdebug']=='true'):
