@@ -1,0 +1,489 @@
+{
+    "status": "1",
+    "flag": "1",
+    "data": {
+        "age": "33年",
+        "layout2": "1房1廳1衛",
+        "layout": "1房1廳1衛",
+        "listLayout": "1房1廳",
+        "floor": "6F/8F",
+        "shape": "電梯大樓",
+        "parking": "無",
+        "community": "",
+        "cases_id": "0",
+        "managefee": "980元/月",
+        "traffic": "",
+        "living": "近便利商店；傳統市場；百貨公司；公園綠地",
+        "area_intro": "主建物10.26坪",
+        "area_intro_arr": [
+            {
+                "name": "土地坪數",
+                "value": "-"
+            },
+            {
+                "name": "登記總面積",
+                "value": "13.83坪"
+            },
+            {
+                "name": "主建物",
+                "value": "10.26坪"
+            },
+            {
+                "name": "共有部分",
+                "value": "-"
+            },
+            {
+                "name": "附屬建物",
+                "value": "-"
+            },
+            {
+                "name": "車位面積",
+                "value": "-"
+            }
+        ],
+        "title": "【住商長安-維彬】附小首購明亮屋",
+        "price": "988萬元",
+        "price_value": "988",
+        "kind": "住宅",
+        "area": "13.83坪",
+        "area_value": "13.83",
+        "region": "台北市",
+        "region_id": "1",
+        "section": "中正區",
+        "section_id": "1",
+        "street": "桃源街",
+        "addr": "",
+        "linkman": "陳維彬",
+        "identity": "仲介",
+        "mobile": "0922-718-208",
+        "telephone": "",
+        "email": "chih.yung0515@gmail.com",
+        "unitprice": "71.44萬/坪",
+        "posttime": "1624083971",
+        "purpose_midify": "0",
+        "mobile_header": "0922-718-208",
+        "parking_new": "無",
+        "is_hide_tel": "0",
+        "tel_agreement": "1",
+        "isrecmoney": "收取服務費",
+        "warnmsg": "0",
+        "is_recmoney": "1",
+        "streetid": "25822",
+        "alley": "",
+        "lane": "x",
+        "addr_number": "x",
+        "hide_addr_detail": "1",
+        "edit_lane": "",
+        "edit_addr_number": "1",
+        "room": "1",
+        "hall": "1",
+        "toilet": "1",
+        "balcony": "0",
+        "is_balcony": "0",
+        "floor_in_floor": "",
+        "spacematerial_str": "",
+        "spacematerial": "0",
+        "carttype": "2",
+        "shape_id": "2",
+        "kind_id": "9",
+        "housetype": "3",
+        "pet": "",
+        "cook": "",
+        "edit_mobile": "0922-718-208",
+        "edit_telephone": "",
+        "parking_shape": "電梯大樓",
+        "parking_kind": "無",
+        "manageprice": "980",
+        "lift": "0",
+        "area_unit": "1",
+        "mainarea": "10.26坪",
+        "modify_limit": "1",
+        "community_id": "",
+        "casesID": "679002",
+        "casesname": "主流商業大樓",
+        "json_no_hometools": {},
+        "json_hometools": [
+            {
+                "name": "桌子",
+                "value": "1",
+                "status": "0"
+            },
+            {
+                "name": "椅子",
+                "value": "3",
+                "status": "0"
+            },
+            {
+                "name": "衣櫃",
+                "value": "4",
+                "status": "0"
+            },
+            {
+                "name": "床",
+                "value": "5",
+                "status": "0"
+            },
+            {
+                "name": "沙發",
+                "value": "7",
+                "status": "0"
+            }
+        ],
+        "json_fixture": [
+            {
+                "name": "熱水器",
+                "value": "1",
+                "status": "0"
+            },
+            {
+                "name": "天然瓦斯",
+                "value": "2",
+                "status": "0"
+            },
+            {
+                "name": "電視",
+                "value": "4",
+                "status": "0"
+            },
+            {
+                "name": "冰箱",
+                "value": "5",
+                "status": "0"
+            },
+            {
+                "name": "冷氣",
+                "value": "6",
+                "status": "0"
+            },
+            {
+                "name": "洗衣機",
+                "value": "7",
+                "status": "0"
+            },
+            {
+                "name": "網路",
+                "value": "14",
+                "status": "0"
+            },
+            {
+                "name": "第四台",
+                "value": "15",
+                "status": "0"
+            },
+            {
+                "name": "養寵物",
+                "value": "",
+                "status": "0"
+            },
+            {
+                "name": "開伙",
+                "value": "",
+                "status": "0"
+            },
+            {
+                "name": "車位",
+                "value": "",
+                "status": "0"
+            }
+        ],
+        "direction": "坐東朝西",
+        "directionID": "1",
+        "purpose": "一般事務所",
+        "houseage": "33",
+        "isrenting": "0",
+        "isrent_ing": "否",
+        "carport": "2",
+        "hasCarport": "2",
+        "cartplacetypeNew": "",
+        "market": {
+            "status": "1",
+            "data": {
+                "community": {
+                    "name": "主流商業大樓",
+                    "id": "5590"
+                },
+                "bar": {
+                    "show": "1",
+                    "type": "1",
+                    "params": {
+                        "id": "5590",
+                        "build_type": "1"
+                    },
+                    "context": "主流商業大樓 · 實價登錄查詢"
+                }
+            }
+        },
+        "livingID": "2,3,1,5",
+        "fitment": "簡易裝潢",
+        "fitmentID": "2",
+        "id": "S9507984",
+        "type": "sale",
+        "remark": "可登記公司 事務所最愛 中正區入手小資族 金融業林立與金庫為鄰 臨中山堂廣場 生活機能強 歡迎各位同業學長先進共同配合敬請指名 住商台北長安店 陳維彬住商不動產好享家不動產仲介經紀有限公司林銘峰 〈107〉中市經字號第01793號住商台北長安店秉持著取之於社會 用之於社會之初衷每成交一筆都會為您捐出1%作為公益用途小小心願 大大願力 滿滿成就",
+        "thumb": "https://hp1.591.com.tw/house/active/2021/06/19/162408362187784109_190x150.jpg",
+        "photo": "https://hp1.591.com.tw/house/active/2021/06/19/162408362187784109_800x600x1453183.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408362305957900_800x600x1453183.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408362346990309_800x600x1453183.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408362550487908_800x600x1453183.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408362440128200_800x600x1453183.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408362144784200_800x600x1453183.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408362720705803_800x600x1453183.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408362818362309_800x600x1453183.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408362904460802_800x600x1453183.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408363328895003_800x600x1453183.crop.water3.jpg|*|https://hp1.591.com.tw/house/map/6fde03329e66191e8c10919612ed8881.png",
+        "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/19/162408362187784109_600x600x1453183.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408362305957900_600x600x1453183.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408362346990309_600x600x1453183.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408362550487908_600x600x1453183.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408362440128200_600x600x1453183.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408362144784200_600x600x1453183.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408362720705803_600x600x1453183.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408362818362309_600x600x1453183.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408362904460802_600x600x1453183.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/19/162408363328895003_600x600x1453183.scale.jpg|*|https://hp1.591.com.tw/house/map/0317a707237445c081955c25b0597ed7.png",
+        "photoalt": "|*||*||*||*||*||*||*||*||*||*|",
+        "photoinfo": [
+            {
+                "photoid": "212319773",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/19/162408362187784109_800x600x1453183.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/19/162408362187784109_600x600x1453183.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212319774",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/19/162408362305957900_800x600x1453183.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/19/162408362305957900_600x600x1453183.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212319775",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/19/162408362346990309_800x600x1453183.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/19/162408362346990309_600x600x1453183.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212319778",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/19/162408362550487908_800x600x1453183.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/19/162408362550487908_600x600x1453183.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212319776",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/19/162408362440128200_800x600x1453183.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/19/162408362440128200_600x600x1453183.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212319772",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/19/162408362144784200_800x600x1453183.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/19/162408362144784200_600x600x1453183.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212319779",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/19/162408362720705803_800x600x1453183.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/19/162408362720705803_600x600x1453183.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212319781",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/19/162408362818362309_800x600x1453183.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/19/162408362818362309_600x600x1453183.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212319782",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/19/162408362904460802_800x600x1453183.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/19/162408362904460802_600x600x1453183.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212319784",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/19/162408363328895003_800x600x1453183.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/19/162408363328895003_600x600x1453183.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            }
+        ],
+        "video_url": "",
+        "move_house": "",
+        "money_evaluate": "",
+        "lat": "25.0414830",
+        "lng": "121.5099263",
+        "share1": "台北市中正區，住宅出售，1房1廳1衛，988萬元，詳情：",
+        "share2": "https://www.591.com.tw/2S?salt=uQIF&s=t",
+        "share3": "來自【591中古屋】",
+        "mortgage_rate": "0.31",
+        "mortgage_info": "首付約198萬，月還款22,984元",
+        "plan_act_info": "",
+        "plan_act_url": "",
+        "info": [
+            {
+                "name": "單價",
+                "value": "71.44萬/坪"
+            },
+            {
+                "name": "現況",
+                "value": "住宅"
+            },
+            {
+                "name": "朝向",
+                "value": "坐東朝西"
+            },
+            {
+                "name": "法定用途",
+                "value": "一般事務所"
+            },
+            {
+                "name": "樓層",
+                "value": "6F/8F"
+            },
+            {
+                "name": "裝潢",
+                "value": "簡易裝潢"
+            },
+            {
+                "name": "帶租約",
+                "value": "否"
+            },
+            {
+                "name": "屋齡",
+                "value": "33年"
+            },
+            {
+                "name": "型態",
+                "value": "電梯大樓"
+            },
+            {
+                "name": "管理費",
+                "value": "980元/月"
+            }
+        ],
+        "showAd": "",
+        "wechat_id": "1453183",
+        "head_img": "",
+        "im_uid": "1453183",
+        "im_name": "陳先生",
+        "foot_news_list": [
+            {
+                "summary": "政府積極興建社宅與推動包租代管，針對社宅政策第一階段目標4萬戶已超越原定目標，包租代管部分，《住宅法》修正案也公布，預期將可有效提升媒合率。",
+                "type_name": "政策解讀",
+                "tag": "",
+                "jump_id": "6732",
+                "praise_num_txt": "39",
+                "browse_num": "4226",
+                "show_time": "1624954050",
+                "cover": [
+                    "https://hp1.591.com.tw/house/active/2021/06/29/162494836254458003_240x170.crop.jpg"
+                ],
+                "author_type": "0",
+                "type": "15",
+                "show_type": "1",
+                "jump_url": "https://m.591.com.tw/v2/news/6732",
+                "browse_num_txt": "4226",
+                "share_num_txt": "71",
+                "week_browse": "1108",
+                "first_tag": "政策解讀",
+                "time": "2021-06-29",
+                "share_num": "71",
+                "title": "社宅一階段達標 未來4年再推8萬戶",
+                "praise_num": "39"
+            },
+            {
+                "first_tag": "政策解讀",
+                "browse_num": "12155",
+                "jump_url": "https://m.591.com.tw/v2/news/6686",
+                "show_type": "1",
+                "summary": "依實價登錄2.0規定，自2021年7月後禁止紅單轉售，違者將按戶(棟)處15萬~100萬元罰鍰處罰業者，但對於房價是否有直接有影響?",
+                "type": "15",
+                "show_time": "1624600344",
+                "week_browse": "968",
+                "praise_num_txt": "125",
+                "browse_num_txt": "1.2萬",
+                "author_type": "0",
+                "praise_num": "125",
+                "title": "實登2.0｜打房靠紅單納管? 其實好傻好天真",
+                "time": "2021-06-25",
+                "tag": "",
+                "share_num_txt": "375",
+                "jump_id": "6686",
+                "cover": [
+                    "https://hp1.591.com.tw/house/active/2021/06/16/162382785719502909_240x170.crop.jpg"
+                ],
+                "share_num": "375",
+                "type_name": "政策解讀"
+            },
+            {
+                "cover": [
+                    "https://hp2.591.com.tw/house/active/2021/06/24/162451976584383900_240x170.crop.png"
+                ],
+                "type_name": "政策解讀",
+                "share_num": "83",
+                "jump_url": "https://m.591.com.tw/v2/news/6713",
+                "type": "15",
+                "browse_num_txt": "4236",
+                "praise_num_txt": "16",
+                "week_browse": "1000",
+                "author_type": "0",
+                "first_tag": "政策解讀",
+                "show_type": "1",
+                "title": "新北社宅再+1 鶯歌380戶2025年完工",
+                "summary": "國家住都中心昨(23)日表示，新北市鶯歌區將興建380戶社會住宅，預計於2025年完工。",
+                "jump_id": "6713",
+                "time": "2021-06-24",
+                "share_num_txt": "83",
+                "praise_num": "16",
+                "tag": "",
+                "show_time": "1624522020",
+                "browse_num": "4236"
+            }
+        ],
+        "econ_name": "好享家不動產仲介經紀有限公司",
+        "is_service_fee": "1",
+        "company_name": "住商不動産",
+        "medium_face": "https://www.591.com.tw/images/index/medium/no-photo-new.png",
+        "approve_status": "noPass",
+        "line": "https://line.me/ti/p/pDDS7s1q2z",
+        "edit_status": "0",
+        "old_kind": "0",
+        "device": "touch",
+        "is_business": "",
+        "appVersionCode": "",
+        "saletype": "0",
+        "no_statis": "",
+        "good_house_tags": {}
+    },
+    "meta": {
+        "title": "【住商長安-維彬】附小首購明亮屋-台北市房屋出售-591售屋網",
+        "keywords": "【住商長安-維彬】附小首購明亮屋,591售屋網,實價登錄",
+        "description": "591售屋網為您提供台北市中古屋出售，台北市中正區房屋出售，【住商長安-維彬】附小首購明亮屋。買房子就上591售屋網！",
+        "ogimage": "https://hp1.591.com.tw/house/active/2021/06/19/162408362187784109_750x666.jpg"
+    },
+    "bluekai_data": {
+        "region_id": "1",
+        "section_id": "1",
+        "sale_price": "900-999",
+        "rental_price": "",
+        "unit_price_per_ping": "75-79.9",
+        "room": "1",
+        "shape": "2",
+        "mrt_city": "",
+        "mrt_line": "",
+        "tag": "",
+        "type": "sale",
+        "kind": "9",
+        "page": ""
+    },
+    "update": "2021-07-16 22:39:26",
+    "is_login_time_out": "1"
+}

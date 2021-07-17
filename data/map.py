@@ -1,4 +1,5 @@
-# 使用 JSON 格式讀取檔案、複寫檔案
+# 因591取得的商品列表資料(data1-x.json)乏經緯度, 因次複製data1-x.json至data-map1-x.json, 並於複製過程中加入經緯度欄位
+# 以假定該區的經緯度範圍, 隨機給定範圍內的值, 透過開啟舊檔案(data1-x.json)複寫並加入經緯度欄位至新檔案(data-map1-x.json)
 import json
 import random
 with open("data7-4.json", mode="r", encoding="utf-8") as file:     #讀取JSON檔案

@@ -1,0 +1,460 @@
+{
+    "status": "1",
+    "flag": "1",
+    "data": {
+        "age": "不詳",
+        "layout2": "3房1廳1衛",
+        "layout": "3房1廳1衛",
+        "listLayout": "3房1廳",
+        "floor": "4F/4F",
+        "shape": "公寓",
+        "parking": "無",
+        "community": "",
+        "cases_id": "0",
+        "managefee": "",
+        "traffic": "",
+        "area_intro": "主建物9.93坪，附屬建物2.45坪，土地5.82坪",
+        "area_intro_arr": [
+            {
+                "name": "土地坪數",
+                "value": "5.82坪"
+            },
+            {
+                "name": "登記總面積",
+                "value": "12.38坪"
+            },
+            {
+                "name": "主建物",
+                "value": "9.93坪"
+            },
+            {
+                "name": "共有部分",
+                "value": "-"
+            },
+            {
+                "name": "附屬建物",
+                "value": "2.45坪"
+            },
+            {
+                "name": "車位面積",
+                "value": "-"
+            }
+        ],
+        "title": "🏠汀洲頂加鼎佳美寓🏠",
+        "price": "1,168萬元",
+        "price_value": "1168",
+        "kind": "住宅",
+        "area": "12.38坪",
+        "area_value": "12.38",
+        "region": "台北市",
+        "region_id": "1",
+        "section": "中正區",
+        "section_id": "1",
+        "street": "汀州路一段",
+        "addr": "306巷",
+        "linkman": "陳先生",
+        "identity": "仲介",
+        "mobile": "0917-596-076",
+        "telephone": "",
+        "email": "",
+        "unitprice": "94.35萬/坪",
+        "posttime": "1624353781",
+        "purpose_midify": "0",
+        "mobile_header": "0917-596-076",
+        "parking_new": "無",
+        "is_hide_tel": "",
+        "tel_agreement": "",
+        "isrecmoney": "收取服務費",
+        "warnmsg": "0",
+        "is_recmoney": "1",
+        "streetid": "25775",
+        "alley": "306",
+        "lane": "x",
+        "addr_number": "x",
+        "hide_addr_detail": "1",
+        "edit_lane": "",
+        "edit_addr_number": "5",
+        "room": "3",
+        "hall": "1",
+        "toilet": "1",
+        "balcony": "0",
+        "is_balcony": "0",
+        "floor_in_floor": "",
+        "spacematerial_str": "",
+        "spacematerial": "0",
+        "carttype": "1",
+        "shape_id": "1",
+        "kind_id": "9",
+        "housetype": "3",
+        "pet": "",
+        "cook": "",
+        "edit_mobile": "0917-596-076",
+        "edit_telephone": "",
+        "parking_shape": "公寓",
+        "parking_kind": "無",
+        "manageprice": "0",
+        "lift": "0",
+        "area_unit": "1",
+        "mainarea": "9.93坪",
+        "modify_limit": "1",
+        "community_id": "",
+        "casesID": "0",
+        "casesname": "",
+        "json_no_hometools": {},
+        "json_hometools": [
+            {
+                "name": "桌子",
+                "value": "1",
+                "status": "0"
+            },
+            {
+                "name": "椅子",
+                "value": "3",
+                "status": "0"
+            },
+            {
+                "name": "衣櫃",
+                "value": "4",
+                "status": "0"
+            },
+            {
+                "name": "床",
+                "value": "5",
+                "status": "0"
+            },
+            {
+                "name": "沙發",
+                "value": "7",
+                "status": "0"
+            }
+        ],
+        "json_fixture": [
+            {
+                "name": "熱水器",
+                "value": "1",
+                "status": "0"
+            },
+            {
+                "name": "天然瓦斯",
+                "value": "2",
+                "status": "0"
+            },
+            {
+                "name": "電視",
+                "value": "4",
+                "status": "0"
+            },
+            {
+                "name": "冰箱",
+                "value": "5",
+                "status": "0"
+            },
+            {
+                "name": "冷氣",
+                "value": "6",
+                "status": "0"
+            },
+            {
+                "name": "洗衣機",
+                "value": "7",
+                "status": "0"
+            },
+            {
+                "name": "網路",
+                "value": "14",
+                "status": "0"
+            },
+            {
+                "name": "第四台",
+                "value": "15",
+                "status": "0"
+            },
+            {
+                "name": "養寵物",
+                "value": "",
+                "status": "0"
+            },
+            {
+                "name": "開伙",
+                "value": "",
+                "status": "0"
+            },
+            {
+                "name": "車位",
+                "value": "",
+                "status": "0"
+            }
+        ],
+        "direction": "坐東朝西",
+        "directionID": "1",
+        "purpose": "住家用",
+        "houseage": "0",
+        "isrenting": "0",
+        "isrent_ing": "否",
+        "carport": "2",
+        "hasCarport": "2",
+        "cartplacetypeNew": "",
+        "market": {
+            "status": "1",
+            "data": {
+                "community": {
+                    "name": "",
+                    "id": ""
+                },
+                "bar": {
+                    "show": "1",
+                    "type": "2",
+                    "params": {
+                        "regionid": "1",
+                        "sectionid": "1",
+                        "region": "台北市",
+                        "section": "中正區",
+                        "keyword": "汀州路一段306巷1~30號"
+                    },
+                    "context": "汀州路一段 · 實價登錄查詢"
+                }
+            }
+        },
+        "livingID": "",
+        "fitment": "中檔裝潢",
+        "fitmentID": "3",
+        "id": "S9518846",
+        "type": "sale",
+        "remark": " ✨稀有中正區低總價3房🔒 ✨屋況極佳 ✨內梯頂加 上下方便 ✨格局方正 ✨近古亭國中 ️✨全聯 龍口市場 用途：住家用 💰投資收租、小資自用兩相宜🏠 🌈實地看屋最準確，立即預約🌈 🔥心動不如馬上行動，錯過可惜唷🔥 🌱生活機完善，無可挑剔的一間，就是它了！🌱 🌻立即來電預約賞屋🌻 👦🏻陳韋延（營業員） （107）登字第325439號 ☎️0917-596-076 🕺🏻意者可直接加賴私訊唷🕺🏻 🆓帶看免費🆓 ❣️成交收取服務費❣️ 💖買屋、賣屋、租賃歡迎委託💖 大家房屋 台北雙連捷運加盟店 (穩懋不動產經紀有限公司) 經紀人 :王國榮 (98)北市經證字01123號 ",
+        "thumb": "https://hp2.591.com.tw/house/active/2021/06/22/162435310803638905_190x150.jpg",
+        "photo": "https://hp2.591.com.tw/house/active/2021/06/22/162435310803638905_800x600x1469710.crop.water3.jpg|*|https://hp2.591.com.tw/house/active/2021/06/22/162435310716209507_800x600x1469710.crop.water3.jpg|*|https://hp2.591.com.tw/house/active/2021/06/22/162435310750932902_800x600x1469710.crop.water3.jpg|*|https://hp2.591.com.tw/house/active/2021/06/22/162435311585408201_800x600x1469710.crop.water3.jpg|*|https://hp2.591.com.tw/house/active/2021/06/22/162435310845607401_800x600x1469710.crop.water3.jpg|*|https://hp2.591.com.tw/house/active/2021/06/22/162435310839567705_800x600x1469710.crop.water3.jpg|*|https://hp2.591.com.tw/house/active/2021/06/22/162435311298405809_800x600x1469710.crop.water3.jpg|*|https://hp1.591.com.tw/house/map/40e66e1aecdc268044c50e485d5bb938.png",
+        "maxphoto": "https://hp2.591.com.tw/house/active/2021/06/22/162435310803638905_600x600x1469710.scale.jpg|*|https://hp2.591.com.tw/house/active/2021/06/22/162435310716209507_600x600x1469710.scale.jpg|*|https://hp2.591.com.tw/house/active/2021/06/22/162435310750932902_600x600x1469710.scale.jpg|*|https://hp2.591.com.tw/house/active/2021/06/22/162435311585408201_600x600x1469710.scale.jpg|*|https://hp2.591.com.tw/house/active/2021/06/22/162435310845607401_600x600x1469710.scale.jpg|*|https://hp2.591.com.tw/house/active/2021/06/22/162435310839567705_600x600x1469710.scale.jpg|*|https://hp2.591.com.tw/house/active/2021/06/22/162435311298405809_600x600x1469710.scale.jpg|*|https://hp1.591.com.tw/house/map/f16d5eb2efa87dde7f07387c139f6ce9.png",
+        "photoalt": "|*||*||*||*||*||*||*|",
+        "photoinfo": [
+            {
+                "photoid": "212575556",
+                "photo": "https://hp2.591.com.tw/house/active/2021/06/22/162435310803638905_800x600x1469710.crop.water3.jpg",
+                "maxphoto": "https://hp2.591.com.tw/house/active/2021/06/22/162435310803638905_600x600x1469710.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212575554",
+                "photo": "https://hp2.591.com.tw/house/active/2021/06/22/162435310716209507_800x600x1469710.crop.water3.jpg",
+                "maxphoto": "https://hp2.591.com.tw/house/active/2021/06/22/162435310716209507_600x600x1469710.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212575555",
+                "photo": "https://hp2.591.com.tw/house/active/2021/06/22/162435310750932902_800x600x1469710.crop.water3.jpg",
+                "maxphoto": "https://hp2.591.com.tw/house/active/2021/06/22/162435310750932902_600x600x1469710.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212575562",
+                "photo": "https://hp2.591.com.tw/house/active/2021/06/22/162435311585408201_800x600x1469710.crop.water3.jpg",
+                "maxphoto": "https://hp2.591.com.tw/house/active/2021/06/22/162435311585408201_600x600x1469710.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212575557",
+                "photo": "https://hp2.591.com.tw/house/active/2021/06/22/162435310845607401_800x600x1469710.crop.water3.jpg",
+                "maxphoto": "https://hp2.591.com.tw/house/active/2021/06/22/162435310845607401_600x600x1469710.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212575559",
+                "photo": "https://hp2.591.com.tw/house/active/2021/06/22/162435310839567705_800x600x1469710.crop.water3.jpg",
+                "maxphoto": "https://hp2.591.com.tw/house/active/2021/06/22/162435310839567705_600x600x1469710.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212575560",
+                "photo": "https://hp2.591.com.tw/house/active/2021/06/22/162435311298405809_800x600x1469710.crop.water3.jpg",
+                "maxphoto": "https://hp2.591.com.tw/house/active/2021/06/22/162435311298405809_600x600x1469710.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            }
+        ],
+        "video_url": "",
+        "move_house": "",
+        "money_evaluate": "",
+        "lat": "25.0263409",
+        "lng": "121.5118551",
+        "share1": "台北市中正區，住宅出售，3房1廳1衛，1,168萬元，詳情：",
+        "share2": "https://www.591.com.tw/2S?salt=uG7d&s=t",
+        "share3": "來自【591中古屋】",
+        "mortgage_rate": "0.31",
+        "mortgage_info": "首付約234萬，月還款27,173元",
+        "plan_act_info": "",
+        "plan_act_url": "",
+        "info": [
+            {
+                "name": "單價",
+                "value": "94.35萬/坪"
+            },
+            {
+                "name": "現況",
+                "value": "住宅"
+            },
+            {
+                "name": "朝向",
+                "value": "坐東朝西"
+            },
+            {
+                "name": "法定用途",
+                "value": "住家用"
+            },
+            {
+                "name": "樓層",
+                "value": "4F/4F"
+            },
+            {
+                "name": "裝潢",
+                "value": "中檔裝潢"
+            },
+            {
+                "name": "帶租約",
+                "value": "否"
+            },
+            {
+                "name": "屋齡",
+                "value": "不詳"
+            },
+            {
+                "name": "型態",
+                "value": "公寓"
+            }
+        ],
+        "showAd": "",
+        "wechat_id": "1469710",
+        "head_img": "",
+        "im_uid": "1469710",
+        "im_name": "陳先生",
+        "foot_news_list": [
+            {
+                "summary": "學者指出，這次變革相當精準，從銷售預售屋「上下游」切入，包括「源頭」的備查機制與「末端」的交易揭露，如此一來消費者只要善用這兩項工具，也能縮短與業者的資訊落差，幫助未來購屋規畫。",
+                "show_time": "1625875214",
+                "author_type": "0",
+                "share_num": "401",
+                "type": "15",
+                "first_tag": "政策解讀",
+                "type_name": "政策解讀",
+                "time": "2021-07-10",
+                "jump_id": "6767",
+                "cover": [
+                    "https://hp2.591.com.tw/house/active/2021/07/08/162573825321492406_240x170.crop.jpg"
+                ],
+                "share_num_txt": "401",
+                "tag": "",
+                "browse_num": "14021",
+                "show_type": "1",
+                "title": "實登2.0│想買預售屋? 專家:善用新制兩工具",
+                "browse_num_txt": "1.4萬",
+                "praise_num_txt": "111",
+                "week_browse": "13625",
+                "jump_url": "https://m.591.com.tw/v2/news/6767",
+                "praise_num": "111"
+            },
+            {
+                "cover": [
+                    "https://hp2.591.com.tw/house/active/2021/07/14/162623228531021307_240x170.crop.jpg"
+                ],
+                "week_browse": "2280",
+                "praise_num": "21",
+                "type": "1",
+                "time": "2021-07-14",
+                "show_type": "1",
+                "author_type": "0",
+                "type_name": "即時新聞",
+                "tag": "新聞",
+                "title": "房租飆高 青年租客搶租弱勢低端房",
+                "jump_id": "6788",
+                "summary": "台灣房租價格連續122個月上漲，房租飆高加上低薪與疫情影響，使得部分青年開始去搶原本是弱勢住的低端租屋，產生排擠效應。",
+                "share_num_txt": "49",
+                "browse_num_txt": "2718",
+                "show_time": "1626233714",
+                "share_num": "49",
+                "jump_url": "https://m.591.com.tw/v2/news/6788",
+                "browse_num": "2718",
+                "praise_num_txt": "21",
+                "first_tag": "統計資料"
+            },
+            {
+                "first_tag": "統計資料",
+                "praise_num": "110",
+                "author_type": "0",
+                "jump_id": "6787",
+                "jump_url": "https://m.591.com.tw/v2/news/6787",
+                "share_num_txt": "516",
+                "share_num": "516",
+                "browse_num": "17882",
+                "show_time": "1626165023",
+                "summary": "內政部日前發布最新「住宅需求動向調查」，發現受訪對象最常遭遇的租屋糾紛，包括租金任意調漲、申請補貼被刁難、修繕責任判定爭議、戶籍無法遷入。",
+                "browse_num_txt": "1.7萬",
+                "type_name": "即時新聞",
+                "praise_num_txt": "110",
+                "time": "2021-07-13",
+                "type": "1",
+                "week_browse": "17560",
+                "show_type": "1",
+                "tag": "新聞",
+                "cover": [
+                    "https://hp1.591.com.tw/house/active/2021/07/13/162616411325764100_240x170.crop.jpg"
+                ],
+                "title": "房東任意漲租、刁難入籍 專家提解方"
+            }
+        ],
+        "econ_name": "穩懋不動產經紀有限公司",
+        "is_service_fee": "1",
+        "company_name": "大家房屋",
+        "medium_face": "http://upload.591.com.tw/user/2017/02/02/148600824748498100.jpg",
+        "approve_status": "pass",
+        "line": "",
+        "edit_status": "0",
+        "old_kind": "0",
+        "device": "touch",
+        "is_business": "",
+        "appVersionCode": "",
+        "saletype": "0",
+        "no_statis": "",
+        "good_house_tags": {}
+    },
+    "meta": {
+        "title": "🏠汀洲頂加鼎佳美寓🏠-台北市房屋出售-591售屋網",
+        "keywords": "🏠汀洲頂加鼎佳美寓🏠,591售屋網,實價登錄",
+        "description": "591售屋網為您提供台北市中古屋出售，台北市中正區306巷房屋出售，🏠汀洲頂加鼎佳美寓🏠。買房子就上591售屋網！",
+        "ogimage": "https://hp2.591.com.tw/house/active/2021/06/22/162435310803638905_750x666.jpg"
+    },
+    "bluekai_data": {
+        "region_id": "1",
+        "section_id": "1",
+        "sale_price": "1100-1199",
+        "rental_price": "",
+        "unit_price_per_ping": "95-99.9",
+        "room": "3",
+        "shape": "1",
+        "mrt_city": "",
+        "mrt_line": "",
+        "tag": "",
+        "type": "sale",
+        "kind": "9",
+        "page": ""
+    },
+    "update": "2021-07-16 23:04:06",
+    "is_login_time_out": "1"
+}

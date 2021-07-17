@@ -1,3 +1,4 @@
+# 將實價登錄資料(deal_modify.csv)存入table deal裏
 import csv
 import cn2an
 

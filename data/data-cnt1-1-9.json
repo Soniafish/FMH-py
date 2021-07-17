@@ -1,0 +1,453 @@
+{
+    "status": "1",
+    "flag": "1",
+    "data": {
+        "age": "34年",
+        "layout2": "1房1廳1衛",
+        "layout": "1房1廳1衛",
+        "listLayout": "1房1廳",
+        "floor": "5F/8F",
+        "shape": "電梯大樓",
+        "parking": "無",
+        "community": "",
+        "cases_id": "0",
+        "managefee": "800元/月",
+        "traffic": "近中華路中正區明星學校公車站； 西門捷運站； 台北火車站",
+        "living": "近便利商店；百貨公司；公園綠地；醫療機構",
+        "area_intro": "主建物7.55坪，共用部分3坪，土地1.254坪",
+        "area_intro_arr": [
+            {
+                "name": "土地坪數",
+                "value": "1.25坪"
+            },
+            {
+                "name": "登記總面積",
+                "value": "10.55坪"
+            },
+            {
+                "name": "主建物",
+                "value": "7.55坪"
+            },
+            {
+                "name": "共有部分",
+                "value": "3.00坪"
+            },
+            {
+                "name": "附屬建物",
+                "value": "-"
+            },
+            {
+                "name": "車位面積",
+                "value": "-"
+            }
+        ],
+        "title": "中正區明星學區(附小+弘道國中)",
+        "price": "798萬元",
+        "price_value": "798",
+        "kind": "住宅",
+        "area": "10.55坪",
+        "area_value": "10.55",
+        "region": "台北市",
+        "region_id": "1",
+        "section": "中正區",
+        "section_id": "1",
+        "street": "桃源街",
+        "addr": "",
+        "linkman": "曾泳潔",
+        "identity": "仲介",
+        "mobile": "0906-991-092",
+        "telephone": "",
+        "email": "luijo718779@gmail.com",
+        "unitprice": "75.64萬/坪",
+        "posttime": "1622801167",
+        "purpose_midify": "0",
+        "mobile_header": "0906-991-092",
+        "parking_new": "無",
+        "is_hide_tel": "",
+        "tel_agreement": "",
+        "isrecmoney": "收取服務費",
+        "warnmsg": "0",
+        "is_recmoney": "1",
+        "streetid": "25822",
+        "alley": "",
+        "lane": "x",
+        "addr_number": "x",
+        "hide_addr_detail": "1",
+        "edit_lane": "",
+        "edit_addr_number": "13",
+        "room": "1",
+        "hall": "1",
+        "toilet": "1",
+        "balcony": "0",
+        "is_balcony": "0",
+        "floor_in_floor": "",
+        "spacematerial_str": "",
+        "spacematerial": "0",
+        "carttype": "2",
+        "shape_id": "2",
+        "kind_id": "9",
+        "housetype": "3",
+        "pet": "",
+        "cook": "",
+        "edit_mobile": "0906-991-092",
+        "edit_telephone": "",
+        "parking_shape": "電梯大樓",
+        "parking_kind": "無",
+        "manageprice": "800",
+        "lift": "0",
+        "area_unit": "1",
+        "mainarea": "7.55坪",
+        "modify_limit": "1",
+        "community_id": "",
+        "casesID": "0",
+        "casesname": "",
+        "json_no_hometools": {},
+        "json_hometools": [
+            {
+                "name": "桌子",
+                "value": "1",
+                "status": "0"
+            },
+            {
+                "name": "椅子",
+                "value": "3",
+                "status": "0"
+            },
+            {
+                "name": "衣櫃",
+                "value": "4",
+                "status": "0"
+            },
+            {
+                "name": "床",
+                "value": "5",
+                "status": "0"
+            },
+            {
+                "name": "沙發",
+                "value": "7",
+                "status": "0"
+            }
+        ],
+        "json_fixture": [
+            {
+                "name": "熱水器",
+                "value": "1",
+                "status": "0"
+            },
+            {
+                "name": "天然瓦斯",
+                "value": "2",
+                "status": "0"
+            },
+            {
+                "name": "電視",
+                "value": "4",
+                "status": "0"
+            },
+            {
+                "name": "冰箱",
+                "value": "5",
+                "status": "0"
+            },
+            {
+                "name": "冷氣",
+                "value": "6",
+                "status": "0"
+            },
+            {
+                "name": "洗衣機",
+                "value": "7",
+                "status": "0"
+            },
+            {
+                "name": "網路",
+                "value": "14",
+                "status": "0"
+            },
+            {
+                "name": "第四台",
+                "value": "15",
+                "status": "0"
+            },
+            {
+                "name": "養寵物",
+                "value": "",
+                "status": "0"
+            },
+            {
+                "name": "開伙",
+                "value": "",
+                "status": "0"
+            },
+            {
+                "name": "車位",
+                "value": "",
+                "status": "0"
+            }
+        ],
+        "direction": "坐東朝西",
+        "directionID": "1",
+        "purpose": "住家用",
+        "houseage": "34",
+        "isrenting": "0",
+        "isrent_ing": "否",
+        "carport": "2",
+        "hasCarport": "2",
+        "cartplacetypeNew": "",
+        "market": {
+            "status": "1",
+            "data": {
+                "community": {
+                    "name": "",
+                    "id": ""
+                },
+                "bar": {
+                    "show": "1",
+                    "type": "1",
+                    "params": {
+                        "id": "1810460",
+                        "build_type": "2"
+                    },
+                    "context": "桃源街 · 查詢"
+                }
+            }
+        },
+        "livingID": "2,1,5,7",
+        "fitment": "中檔裝潢",
+        "fitmentID": "3",
+        "id": "S9462685",
+        "type": "sale",
+        "remark": "*中正區明星學校.市立教育大學附小.市立弘道國中 *離西門捷運站約180m *遠東百貨約190M *離中正堂約210m *大面採光.可登記公司.收租自用皆宜 曾泳潔 0906-991-092 此電話號碼歡迎+Line詢問相關問題 小提醒: 1.物件資料若有手肥誤另備有詳細的不動產說明書可提供細節資料! 2.步行至捷運站的距離與時間,參考數字時間來自google地圖,僅供參考! 3.房數為591必填,若主要用途為一般事務所(不能做住家),無誤導之意! 4.刊登之照片若有室外照非物件本身,則為附近街景示意圖! 5.格局未依一定比例縮小之概繪圖,可能與實況有些差距,以房屋現況為主! 6.所登載之房屋物件與實際情形有所差異時則以地政機關登記資料為主! 7.本物件所顯示的學校為鄰近學校,非指學區,無誤導之意! 8.591系統的屋齡不能輸入月份,導致屋齡在顯示上會有時間差,無誤導之意!曾泳潔0906-991-092歡迎店配住商不動產長春復北加盟店首誠不動產仲介經紀有限公司(102)孫世明北市經證字第01966號",
+        "thumb": "https://hp1.591.com.tw/house/active/2021/06/04/162280111828457605_190x150.jpg",
+        "photo": "https://hp1.591.com.tw/house/active/2021/06/04/162280111828457605_800x600x2792721.crop.water3.jpg|*|https://hp2.591.com.tw/house/active/2021/07/07/162563187718208109_800x600x2792721.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/04/162280079417353702_800x600x2792721.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/04/162280079445109400_800x600x2792721.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/04/162280079391775602_800x600x2792721.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/04/162280109087159702_800x600x2792721.crop.water3.jpg|*|https://hp1.591.com.tw/house/map/38d82e0c5c1152ba5c6be109f0b24053.png",
+        "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/04/162280111828457605_600x600x2792721.scale.jpg|*|https://hp2.591.com.tw/house/active/2021/07/07/162563187718208109_600x600x2792721.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/04/162280079417353702_600x600x2792721.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/04/162280079445109400_600x600x2792721.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/04/162280079391775602_600x600x2792721.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/04/162280109087159702_600x600x2792721.scale.jpg|*|https://hp1.591.com.tw/house/map/f53fc35a501bf9bb46c0bb5d2ad6ce23.png",
+        "photoalt": "|*||*||*||*||*||*|",
+        "photoinfo": [
+            {
+                "photoid": "211222235",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/04/162280111828457605_800x600x2792721.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/04/162280111828457605_600x600x2792721.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "213986394",
+                "photo": "https://hp2.591.com.tw/house/active/2021/07/07/162563187718208109_800x600x2792721.crop.water3.jpg",
+                "maxphoto": "https://hp2.591.com.tw/house/active/2021/07/07/162563187718208109_600x600x2792721.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "211221777",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/04/162280079417353702_800x600x2792721.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/04/162280079417353702_600x600x2792721.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "211221778",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/04/162280079445109400_800x600x2792721.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/04/162280079445109400_600x600x2792721.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "211221776",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/04/162280079391775602_800x600x2792721.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/04/162280079391775602_600x600x2792721.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "211222190",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/04/162280109087159702_800x600x2792721.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/04/162280109087159702_600x600x2792721.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            }
+        ],
+        "video_url": "",
+        "move_house": "",
+        "money_evaluate": "",
+        "lat": "25.0429218",
+        "lng": "121.5114593",
+        "share1": "台北市中正區，住宅出售，1房1廳1衛，798萬元，詳情：",
+        "share2": "https://www.591.com.tw/2S?salt=uMgX&s=t",
+        "share3": "來自【591中古屋】",
+        "mortgage_rate": "0.31",
+        "mortgage_info": "首付約160萬，月還款18,561元",
+        "plan_act_info": "",
+        "plan_act_url": "",
+        "info": [
+            {
+                "name": "單價",
+                "value": "75.64萬/坪"
+            },
+            {
+                "name": "現況",
+                "value": "住宅"
+            },
+            {
+                "name": "朝向",
+                "value": "坐東朝西"
+            },
+            {
+                "name": "法定用途",
+                "value": "住家用"
+            },
+            {
+                "name": "樓層",
+                "value": "5F/8F"
+            },
+            {
+                "name": "裝潢",
+                "value": "中檔裝潢"
+            },
+            {
+                "name": "帶租約",
+                "value": "否"
+            },
+            {
+                "name": "屋齡",
+                "value": "34年"
+            },
+            {
+                "name": "型態",
+                "value": "電梯大樓"
+            },
+            {
+                "name": "管理費",
+                "value": "800元/月"
+            }
+        ],
+        "showAd": "",
+        "wechat_id": "2792721",
+        "head_img": "",
+        "im_uid": "2792721",
+        "im_name": "曾女士",
+        "foot_news_list": [
+            {
+                "show_time": "1626062293",
+                "tag": "新聞",
+                "week_browse": "2307",
+                "show_type": "1",
+                "share_num": "30",
+                "jump_url": "https://m.591.com.tw/v2/news/6779",
+                "first_tag": "稅法",
+                "type": "1",
+                "summary": "全台各縣市，當中又以新北市近7.2萬人擁有非自住住家位居榜首；其次為台中市6.2萬人，第三名為台北市近5.7萬人。",
+                "share_num_txt": "30",
+                "jump_id": "6779",
+                "cover": [
+                    "https://hp1.591.com.tw/house/active/2021/07/12/162606026379598105_240x170.crop.jpg"
+                ],
+                "praise_num": "15",
+                "browse_num": "2485",
+                "browse_num_txt": "2485",
+                "author_type": "0",
+                "time": "2021-07-12",
+                "type_name": "即時新聞",
+                "praise_num_txt": "15",
+                "title": "六都非自用住宅歸戶首度曝光 這裡最愛囤房?"
+            },
+            {
+                "show_type": "1",
+                "jump_url": "https://m.591.com.tw/v2/news/6715",
+                "type": "15",
+                "browse_num_txt": "2411",
+                "author_type": "0",
+                "share_num_txt": "47",
+                "share_num": "47",
+                "tag": "",
+                "praise_num": "10",
+                "first_tag": "政策解讀",
+                "show_time": "1624593147",
+                "title": "全台瘋社宅! 台中育賢三期社宅動土",
+                "praise_num_txt": "10",
+                "jump_id": "6715",
+                "type_name": "政策解讀",
+                "time": "2021-06-25",
+                "cover": [
+                    "https://hp1.591.com.tw/house/active/2021/06/25/162458952408510204_240x170.crop.jpg"
+                ],
+                "summary": "全台積極興建社會住宅，其中台中育賢三期社宅23日開工動土，預計2024年底完工，完工後再加上第一期與第二期，總共可提供970戶社宅。",
+                "browse_num": "2411",
+                "week_browse": "439"
+            },
+            {
+                "jump_id": "6803",
+                "type_name": "即時新聞",
+                "cover": [
+                    "https://hp1.591.com.tw/house/active/2021/07/16/162640152775363402_240x170.crop.jpg"
+                ],
+                "praise_num": "16",
+                "praise_num_txt": "16",
+                "show_type": "1",
+                "jump_url": "https://m.591.com.tw/v2/news/6803",
+                "tag": "新聞",
+                "type": "1",
+                "first_tag": "統計資料",
+                "share_num": "40",
+                "summary": "疫情警戒以來房市近乎停滯，此外今年房市發展受到打炒房、缺工缺料等影響，整體市場將產生量與質的變化。",
+                "time": "2021-07-16",
+                "share_num_txt": "40",
+                "week_browse": "0",
+                "browse_num": "10469",
+                "title": "疫情改變房市 住宅朝Ｍ型化發展",
+                "author_type": "0",
+                "browse_num_txt": "1萬",
+                "show_time": "1626409620"
+            }
+        ],
+        "econ_name": "房屋仲介",
+        "is_service_fee": "1",
+        "company_name": "住商不動産",
+        "medium_face": "http://upload.591.com.tw/user/2021/06/04/162278790822193249.jpg",
+        "approve_status": "pass",
+        "line": "",
+        "edit_status": "0",
+        "old_kind": "0",
+        "device": "touch",
+        "is_business": "",
+        "appVersionCode": "",
+        "saletype": "0",
+        "no_statis": "",
+        "good_house_tags": {}
+    },
+    "meta": {
+        "title": "中正區明星學區(附小+弘道國中)-台北市房屋出售-591售屋網",
+        "keywords": "中正區明星學區(附小+弘道國中),591售屋網,實價登錄",
+        "description": "591售屋網為您提供台北市中古屋出售，台北市中正區房屋出售，中正區明星學區(附小+弘道國中)。買房子就上591售屋網！",
+        "ogimage": "https://hp1.591.com.tw/house/active/2021/06/04/162280111828457605_750x666.jpg"
+    },
+    "bluekai_data": {
+        "region_id": "1",
+        "section_id": "1",
+        "sale_price": "700-799",
+        "rental_price": "",
+        "unit_price_per_ping": "75-79.9",
+        "room": "1",
+        "shape": "2",
+        "mrt_city": "",
+        "mrt_line": "",
+        "tag": "",
+        "type": "sale",
+        "kind": "9",
+        "page": ""
+    },
+    "update": "2021-07-16 22:42:53",
+    "is_login_time_out": "1"
+}

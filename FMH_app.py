@@ -1,6 +1,7 @@
 # !/usr/bin/python2
 # coding:utf-8
 
+
 import os
 from dotenv import load_dotenv
 from flask import *
@@ -94,21 +95,21 @@ def handleHouses():
         if filter_layout!="all":
             if firstFilter:
                 statement = statement + " (layout ='"+filter_layout+"')"
+                firstFilter=False
             else:
                 statement = statement + " and (layout ='"+filter_layout+"')"
-                firstFilter=False
         if filter_price_min!=-1:
             if firstFilter:
                 statement = statement + f" (house_price between {filter_price_min} and {filter_price_max} )"
+                firstFilter=False
             else:
                 statement = statement + f" and (house_price between {filter_price_min} and {filter_price_max} )"
-                firstFilter=False
         if filter_size_min!=-1:
             if firstFilter:
                 statement = statement + f" (house_size between {filter_size_min} and {filter_size_max} )"
+                firstFilter=False
             else:
                 statement = statement + f" and (house_size between {filter_size_min} and {filter_size_max} )"
-                firstFilter=False
     else:
         statement=""
 
@@ -216,13 +217,14 @@ def handleHouse():
     print(cursor) 
 
     insertValues=request.get_json()
-    houseid=insertValues["houseid"]    #預設page值為1
-    filterStatement = "select houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price from house where houseid='"+houseid+"'"
+    houseid=insertValues["houseid"]    #取得houseid
+    # filterStatement = "select houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, house_size from house where houseid='"+houseid+"'"
+    filterStatement = "select houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, house_size, photos, age, floor, direction, im_name, company_name, statusquo, shape, fitment, managefee, isrent_ing, parking, area_main, area_sub, area_land, remark from house where houseid='"+houseid+"'"
     cursor.execute(filterStatement)
     filterData=cursor.fetchone() #取得物件
     print("filterData")
     print(filterData)
-
+    
     if filterData:
         data={
             "houseid": filterData[0],
@@ -234,6 +236,23 @@ def handleHouse():
             "house_price": filterData[6],
             "house_price_unit": filterData[7],
             "area_price": filterData[8],
+            "house_size": filterData[9],
+            "photos": filterData[10], 
+            "age": filterData[11], 
+            "floor": filterData[12], 
+            "direction": filterData[13], 
+            "im_name": filterData[14], 
+            "company_name": filterData[15], 
+            "statusquo": filterData[16], 
+            "shape": filterData[17], 
+            "fitment": filterData[18], 
+            "managefee": filterData[19], 
+            "isrent_ing": filterData[20], 
+            "parking": filterData[21], 
+            "area_main": filterData[22], 
+            "area_sub": filterData[23], 
+            "area_land": filterData[24], 
+            "remark": filterData[25]
         }
 
         # 實價登錄
@@ -245,9 +264,9 @@ def handleHouse():
         cursor.execute(filterStatement)
         filterData2=cursor.fetchall() #取得物件
         print("filterData2")
-        print(filterData2[0])
         dealData=[]
         if filterData2:
+            print(filterData2[0])
             for item in filterData2:
                 dealData.append({
                     "address": item[0],

@@ -1,0 +1,540 @@
+{
+    "status": "1",
+    "flag": "1",
+    "data": {
+        "age": "13年",
+        "layout2": "1房1廳1衛",
+        "layout": "1房1廳1衛",
+        "listLayout": "1房1廳",
+        "floor": "2F/12F",
+        "shape": "電梯大樓",
+        "parking": "無",
+        "community": "",
+        "cases_id": "0",
+        "managefee": "",
+        "traffic": "",
+        "living": "近便利商店；傳統市場；百貨公司；公園綠地；學校；醫療機構；夜市",
+        "area_intro": "主建物8.66坪，共用部分3.85坪，土地1.26坪",
+        "area_intro_arr": [
+            {
+                "name": "土地坪數",
+                "value": "1.26坪"
+            },
+            {
+                "name": "登記總面積",
+                "value": "12.51坪"
+            },
+            {
+                "name": "主建物",
+                "value": "8.66坪"
+            },
+            {
+                "name": "共有部分",
+                "value": "3.85坪"
+            },
+            {
+                "name": "附屬建物",
+                "value": "-"
+            },
+            {
+                "name": "車位面積",
+                "value": "-"
+            }
+        ],
+        "title": "臻第時尚小資宅全業房屋",
+        "price": "986萬元",
+        "price_value": "986",
+        "kind": "住宅",
+        "area": "12.51坪",
+        "area_value": "12.51",
+        "region": "台北市",
+        "region_id": "1",
+        "section": "中正區",
+        "section_id": "1",
+        "street": "重慶南路三段",
+        "addr": "",
+        "linkman": "全業房屋",
+        "identity": "仲介",
+        "mobile": "",
+        "telephone": "02-29296859",
+        "email": "sensing33@yahoo.com.tw",
+        "unitprice": "78.82萬/坪",
+        "posttime": "1622282056",
+        "purpose_midify": "0",
+        "mobile_header": "",
+        "parking_new": "無",
+        "is_hide_tel": "0",
+        "tel_agreement": "0",
+        "isrecmoney": "收取服務費",
+        "warnmsg": "0",
+        "is_recmoney": "1",
+        "streetid": "25818",
+        "alley": "",
+        "lane": "x",
+        "addr_number": "x",
+        "hide_addr_detail": "1",
+        "edit_lane": "",
+        "edit_addr_number": "129",
+        "room": "1",
+        "hall": "1",
+        "toilet": "1",
+        "balcony": "0",
+        "is_balcony": "0",
+        "floor_in_floor": "",
+        "spacematerial_str": "",
+        "spacematerial": "0",
+        "carttype": "2",
+        "shape_id": "2",
+        "kind_id": "9",
+        "housetype": "3",
+        "pet": "",
+        "cook": "",
+        "edit_mobile": "",
+        "edit_telephone": "02-29296859",
+        "parking_shape": "電梯大樓",
+        "parking_kind": "無",
+        "manageprice": "0",
+        "lift": "0",
+        "area_unit": "1",
+        "mainarea": "8.66坪",
+        "modify_limit": "1",
+        "community_id": "",
+        "casesID": "752800",
+        "casesname": "臻第大廈",
+        "json_no_hometools": {},
+        "json_hometools": [
+            {
+                "name": "桌子",
+                "value": "1",
+                "status": "0"
+            },
+            {
+                "name": "椅子",
+                "value": "3",
+                "status": "0"
+            },
+            {
+                "name": "衣櫃",
+                "value": "4",
+                "status": "0"
+            },
+            {
+                "name": "床",
+                "value": "5",
+                "status": "0"
+            },
+            {
+                "name": "沙發",
+                "value": "7",
+                "status": "0"
+            }
+        ],
+        "json_fixture": [
+            {
+                "name": "熱水器",
+                "value": "1",
+                "status": "0"
+            },
+            {
+                "name": "天然瓦斯",
+                "value": "2",
+                "status": "0"
+            },
+            {
+                "name": "電視",
+                "value": "4",
+                "status": "0"
+            },
+            {
+                "name": "冰箱",
+                "value": "5",
+                "status": "0"
+            },
+            {
+                "name": "冷氣",
+                "value": "6",
+                "status": "0"
+            },
+            {
+                "name": "洗衣機",
+                "value": "7",
+                "status": "0"
+            },
+            {
+                "name": "網路",
+                "value": "14",
+                "status": "0"
+            },
+            {
+                "name": "第四台",
+                "value": "15",
+                "status": "0"
+            },
+            {
+                "name": "養寵物",
+                "value": "",
+                "status": "0"
+            },
+            {
+                "name": "開伙",
+                "value": "",
+                "status": "0"
+            },
+            {
+                "name": "車位",
+                "value": "",
+                "status": "0"
+            }
+        ],
+        "purpose": "住家用",
+        "houseage": "13",
+        "isrenting": "0",
+        "isrent_ing": "否",
+        "carport": "2",
+        "hasCarport": "2",
+        "cartplacetypeNew": "",
+        "market": {
+            "status": "1",
+            "data": {
+                "community": {
+                    "name": "臻第大廈",
+                    "id": "5037"
+                },
+                "bar": {
+                    "show": "1",
+                    "type": "1",
+                    "params": {
+                        "id": "5037",
+                        "build_type": "1"
+                    },
+                    "context": "臻第大廈 · 實價登錄查詢"
+                }
+            }
+        },
+        "livingID": "2,3,1,5,6,7,4",
+        "fitment": "簡易裝潢",
+        "fitmentID": "2",
+        "id": "S9444651",
+        "type": "sale",
+        "remark": "雅緻裝潢 年輕時尚人來立可入住 標準1房1廳1衛自住投資收租好選擇13年新屋中正區 古亭捷運站交通便利 生活機能強▓關於全業房屋服務好每一位客戶是我們的最高宗旨 誠心的祝福每一位朋友找到幸福的家買賣價金僑馥建經履約保證 保證費用本公司支付 仲介服務費於交易完成交屋時收取 交易更有保障※※全業房屋仲介經紀有限公司 ※※ 統編:25013256 永和環河西路二段223號1樓 小美 sensing10@gmail.com ※國家考試合格不動產經紀人※ 經紀人證號:(97)北縣字第001733號",
+        "thumb": "https://hp1.591.com.tw/house/active/2021/06/15/162376248363550337_190x150.jpg",
+        "photo": "https://hp1.591.com.tw/house/active/2021/06/15/162376248363550337_800x600x8696.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248372460614_800x600x8696.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248378458013_800x600x8696.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248383654391_800x600x8696.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248388519203_800x600x8696.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248393736869_800x600x8696.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248398974375_800x600x8696.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248404146834_800x600x8696.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248409301949_800x600x8696.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248415510175_800x600x8696.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248422205035_800x600x8696.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248428266836_800x600x8696.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248433817497_800x600x8696.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/05/31/162244362141650901_800x600x8696.crop.water3.jpg|*|https://hp1.591.com.tw/house/active/2021/05/31/162244362623306204_800x600x8696.crop.water3.jpg|*|https://hp1.591.com.tw/house/map/92656ed1d7897f04031d94f6fc29f9e7.png",
+        "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/15/162376248363550337_600x600x8696.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248372460614_600x600x8696.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248378458013_600x600x8696.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248383654391_600x600x8696.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248388519203_600x600x8696.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248393736869_600x600x8696.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248398974375_600x600x8696.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248404146834_600x600x8696.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248409301949_600x600x8696.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248415510175_600x600x8696.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248422205035_600x600x8696.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248428266836_600x600x8696.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/06/15/162376248433817497_600x600x8696.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/05/31/162244362141650901_600x600x8696.scale.jpg|*|https://hp1.591.com.tw/house/active/2021/05/31/162244362623306204_600x600x8696.scale.jpg|*|https://hp1.591.com.tw/house/map/2cf013a872d2f4faf3ed9fd8a2cde456.png",
+        "photoalt": "|*||*||*||*||*||*||*||*||*||*||*||*||*||*||*|",
+        "photoinfo": [
+            {
+                "photoid": "212023097",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/15/162376248363550337_800x600x8696.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/15/162376248363550337_600x600x8696.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212023098",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/15/162376248372460614_800x600x8696.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/15/162376248372460614_600x600x8696.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212023099",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/15/162376248378458013_800x600x8696.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/15/162376248378458013_600x600x8696.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212023100",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/15/162376248383654391_800x600x8696.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/15/162376248383654391_600x600x8696.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212023101",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/15/162376248388519203_800x600x8696.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/15/162376248388519203_600x600x8696.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212023102",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/15/162376248393736869_800x600x8696.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/15/162376248393736869_600x600x8696.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212023103",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/15/162376248398974375_800x600x8696.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/15/162376248398974375_600x600x8696.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212023104",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/15/162376248404146834_800x600x8696.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/15/162376248404146834_600x600x8696.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212023105",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/15/162376248409301949_800x600x8696.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/15/162376248409301949_600x600x8696.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212023106",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/15/162376248415510175_800x600x8696.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/15/162376248415510175_600x600x8696.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212023107",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/15/162376248422205035_800x600x8696.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/15/162376248422205035_600x600x8696.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212023108",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/15/162376248428266836_800x600x8696.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/15/162376248428266836_600x600x8696.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "212023109",
+                "photo": "https://hp1.591.com.tw/house/active/2021/06/15/162376248433817497_800x600x8696.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/06/15/162376248433817497_600x600x8696.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "210879963",
+                "photo": "https://hp1.591.com.tw/house/active/2021/05/31/162244362141650901_800x600x8696.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/05/31/162244362141650901_600x600x8696.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            },
+            {
+                "photoid": "210879982",
+                "photo": "https://hp1.591.com.tw/house/active/2021/05/31/162244362623306204_800x600x8696.crop.water3.jpg",
+                "maxphoto": "https://hp1.591.com.tw/house/active/2021/05/31/162244362623306204_600x600x8696.scale.jpg",
+                "photoalt": "",
+                "is_full": "0",
+                "arround_url": "",
+                "video": ""
+            }
+        ],
+        "video_url": "",
+        "move_house": "",
+        "money_evaluate": "",
+        "lat": "25.0246282",
+        "lng": "121.5177389",
+        "share1": "台北市中正區，住宅出售，1房1廳1衛，986萬元，詳情：",
+        "share2": "https://www.591.com.tw/2S?salt=u4Kf&s=t",
+        "share3": "來自【591中古屋】",
+        "mortgage_rate": "0.31",
+        "mortgage_info": "首付約197萬，月還款22,954元",
+        "plan_act_info": "",
+        "plan_act_url": "",
+        "info": [
+            {
+                "name": "單價",
+                "value": "78.82萬/坪"
+            },
+            {
+                "name": "現況",
+                "value": "住宅"
+            },
+            {
+                "name": "法定用途",
+                "value": "住家用"
+            },
+            {
+                "name": "樓層",
+                "value": "2F/12F"
+            },
+            {
+                "name": "裝潢",
+                "value": "簡易裝潢"
+            },
+            {
+                "name": "帶租約",
+                "value": "否"
+            },
+            {
+                "name": "屋齡",
+                "value": "13年"
+            },
+            {
+                "name": "型態",
+                "value": "電梯大樓"
+            }
+        ],
+        "showAd": "",
+        "wechat_id": "8696",
+        "head_img": "",
+        "im_uid": "8696",
+        "im_name": "字女士",
+        "foot_news_list": [
+            {
+                "type_name": "政策解讀",
+                "show_type": "1",
+                "jump_id": "6783",
+                "summary": "立法院通過《都市更新條例》修法，針對都更案內危險建築物，在取得住戶多數共識，可地方政府代為拆除，同時也提高容積獎勵，最高達原容積1.3倍。",
+                "browse_num_txt": "1750",
+                "type": "15",
+                "week_browse": "1518",
+                "time": "2021-07-13",
+                "title": "都更新法通過 危老建築適用標準曝光",
+                "first_tag": "政策解讀",
+                "show_time": "1626146627",
+                "tag": "",
+                "praise_num": "14",
+                "browse_num": "1750",
+                "jump_url": "https://m.591.com.tw/v2/news/6783",
+                "praise_num_txt": "14",
+                "share_num_txt": "79",
+                "author_type": "0",
+                "share_num": "79",
+                "cover": [
+                    "https://hp1.591.com.tw/house/active/2021/07/13/162614355780355009_240x170.crop.jpg"
+                ]
+            },
+            {
+                "share_num_txt": "172",
+                "praise_num_txt": "112",
+                "time": "2021-07-14",
+                "type": "1",
+                "share_num": "172",
+                "show_type": "1",
+                "title": "疫後會有報復性買盤? 慘遭學者打臉",
+                "first_tag": "統計資料",
+                "week_browse": "13077",
+                "praise_num": "112",
+                "type_name": "即時新聞",
+                "summary": "疫情尾聲，市場上充斥報復性買盤的說法，對此有學者認為，買氣和疫情並無直接關係，這種說法是「後此謬誤」。",
+                "browse_num": "13929",
+                "jump_id": "6790",
+                "tag": "新聞",
+                "author_type": "0",
+                "show_time": "1626248824",
+                "cover": [
+                    "https://hp1.591.com.tw/house/active/2021/07/14/162624561140208808_240x170.crop.jpg"
+                ],
+                "jump_url": "https://m.591.com.tw/v2/news/6790",
+                "browse_num_txt": "1.3萬"
+            },
+            {
+                "cover": [
+                    "https://hp1.591.com.tw/house/active/2021/07/15/162632066006261005_240x170.crop.jpg"
+                ],
+                "week_browse": "1287",
+                "title": "最新數據出爐 捷運旁房價再創新高",
+                "tag": "新聞",
+                "time": "2021-07-15",
+                "browse_num_txt": "1976",
+                "type_name": "即時新聞",
+                "summary": "新北市政府地政局今(15)日公布最新一期住宅價格指數，今年第1季1~3月價格指數分皆較去年第4季相較微幅上漲。",
+                "first_tag": "統計資料",
+                "author_type": "0",
+                "share_num": "32",
+                "show_time": "1626321780",
+                "praise_num": "17",
+                "praise_num_txt": "17",
+                "share_num_txt": "32",
+                "browse_num": "1976",
+                "show_type": "1",
+                "jump_url": "https://m.591.com.tw/v2/news/6799",
+                "type": "1",
+                "jump_id": "6799"
+            }
+        ],
+        "econ_name": "全業房屋仲介經紀有限公司",
+        "is_service_fee": "1",
+        "company_name": "全業房屋仲介經紀有限公司",
+        "medium_face": "http://upload.591.com.tw/user/2012/09/27/134871204920572605.jpg",
+        "approve_status": "pass",
+        "line": "",
+        "edit_status": "0",
+        "old_kind": "0",
+        "device": "touch",
+        "is_business": "",
+        "appVersionCode": "",
+        "saletype": "0",
+        "no_statis": "",
+        "good_house_tags": [
+            {
+                "icon": "https://www.591.com.tw/images/api/mobile/detail/icon/goodHouseIcon3.png",
+                "tag": "搶手房源",
+                "desc": "近兩週807人也在關注此房"
+            },
+            {
+                "icon": "https://www.591.com.tw/images/api/mobile/detail/icon/goodHouseIcon4.png",
+                "tag": "品質商圈",
+                "desc": "生活機能佳，周邊有百貨公司、傳統市場、公園綠地、醫療機構、學校"
+            },
+            {
+                "icon": "https://www.591.com.tw/images/api/mobile/detail/icon/goodHouseIcon5.png",
+                "tag": "交通便利",
+                "desc": "距離捷運古亭站538公尺"
+            }
+        ]
+    },
+    "meta": {
+        "title": "臻第時尚小資宅全業房屋-台北市房屋出售-591售屋網",
+        "keywords": "臻第時尚小資宅全業房屋,591售屋網,實價登錄",
+        "description": "591售屋網為您提供台北市中古屋出售，台北市中正區房屋出售，臻第時尚小資宅全業房屋。買房子就上591售屋網！",
+        "ogimage": "https://hp1.591.com.tw/house/active/2021/06/15/162376248363550337_750x666.jpg"
+    },
+    "bluekai_data": {
+        "region_id": "1",
+        "section_id": "1",
+        "sale_price": "900-999",
+        "rental_price": "",
+        "unit_price_per_ping": "80-84.9",
+        "room": "1",
+        "shape": "2",
+        "mrt_city": "",
+        "mrt_line": "",
+        "tag": "",
+        "type": "sale",
+        "kind": "9",
+        "page": ""
+    },
+    "update": "2021-07-16 22:41:43",
+    "is_login_time_out": "1"
+}

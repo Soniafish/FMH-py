@@ -1,4 +1,6 @@
-# 使用 JSON 格式讀取檔案、複寫檔案
+# 因591取得的商品列表資料(data1-x.json)乏經緯度, 因次測試加入經緯度欄位的方法
+# 從(data1-1.json)複製檔案到(data-test.json), 以路名來標定經緯度, 再重新寫入經緯度的欄位, 到(data-newtest.json)的檔案裡
+
 import json
 with open("data-test.json", mode="r", encoding="utf-8") as file:     #讀取JSON檔案
     data=json.load(file)

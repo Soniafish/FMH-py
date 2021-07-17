@@ -1,3 +1,8 @@
+# 591手機版分類頁api (https://m.591.com.tw/mobile-list.html?.....) 可取得該頁的json資料
+# 透過此方法取得台北市每一區依照1000萬以下、1000-1500萬、1500-2000萬、2000-2500萬區間, 取得7Ｘ4筆的分類頁資料, 存為data1-x.json
+# 然而因資料缺乏經緯度, 因次複製data1-x.json至data-map1-x.json, 並於複製過程中加入經緯度(map.py)
+# 重新讀取(data-map1-x.json)在寫入資料庫 table house裏
+
 import os
 from dotenv import load_dotenv
 import json
@@ -35,6 +40,7 @@ cursor.execute("use FMH")
 # houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, country, community, kindStr, layout, management_fee, management_fee_unit, house_size, house_size_unit, lat, lng
 # cursor.execute("create table house(houseid VARCHAR(255) PRIMARY KEY, area_misc VARCHAR(255) NOT NULL, address VARCHAR(255) NOT NULL, title VARCHAR(255) NOT NULL, photo_src VARCHAR(255) NOT NULL, layout_misc VARCHAR(255) NOT NULL, house_price int NOT NULL, house_price_unit VARCHAR(255) NOT NULL, area_price VARCHAR(255) NOT NULL, country VARCHAR(255) NOT NULL, community VARCHAR(255), kindStr VARCHAR(255) NOT NULL, layout VARCHAR(255) NOT NULL, management_fee VARCHAR(255), management_fee_unit VARCHAR(255), house_size FLOAT NOT NULL, house_size_unit VARCHAR(255) NOT NULL, lat FLOAT NOT NULL, lng FLOAT NOT NULL)")
 
+# 開啟data
 data=None
 with open("data-map7-4.json", mode="r") as file:
     data=json.load(file)
