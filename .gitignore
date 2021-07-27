@@ -4,3 +4,4 @@
 # Environments
 .env
 data/.env
+data/

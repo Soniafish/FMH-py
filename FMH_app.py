@@ -61,6 +61,7 @@ def handleHouses():
     print(cursor) 
 
     insertValues=request.get_json()
+    print(insertValues)
     page=insertValues["currentPage"]    #預設page值為1
     keyword=insertValues["keyword"]     #預設keyword值為""
     filter_country=insertValues["filter"]["country"] 
@@ -142,9 +143,9 @@ def handleHouses():
 
     # 取得符合條件的資料, 並加入排序
     if sortby_kind !="":        
-        filterStatement = "select houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, lat, lng from house" + statement + " order by " + sortby_kind + " " + sortby_order
+        filterStatement = "select houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, lat, lng, all_addr from house" + statement + " order by " + sortby_kind + " " + sortby_order
     else:
-        filterStatement = "select houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, lat, lng from house" + statement + " order by houseid"
+        filterStatement = "select houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, lat, lng, all_addr from house" + statement + " order by houseid"
     print("filterStatement:", filterStatement)
 
     # 取得符合條件且對應頁碼的資料
@@ -170,7 +171,8 @@ def handleHouses():
                 "house_price_unit": item[7],
                 "area_price": item[8],
                 "lat": item[9],
-                "lng": item[10]
+                "lng": item[10],
+                "all_addr": item[11]
             })
 
         # 關閉db連線
@@ -218,8 +220,7 @@ def handleHouse():
 
     insertValues=request.get_json()
     houseid=insertValues["houseid"]    #取得houseid
-    # filterStatement = "select houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, house_size from house where houseid='"+houseid+"'"
-    filterStatement = "select houseid, area_misc, address, title, photo_src, layout_misc, house_price, house_price_unit, area_price, house_size, photos, age, floor, direction, im_name, company_name, statusquo, shape, fitment, managefee, isrent_ing, parking, area_main, area_sub, area_land, remark from house where houseid='"+houseid+"'"
+    filterStatement = "select houseid, area_misc, address, all_addr, title, photo_src, layout_misc, house_price, house_price_unit, area_price, house_size, photos, age, floor, direction, im_name, company_name, statusquo, shape, fitment, management_fee, isrent_ing, parking, area_main, area_sub, area_land, community, remark, house_life from house where houseid='"+houseid+"'"
     cursor.execute(filterStatement)
     filterData=cursor.fetchone() #取得物件
     print("filterData")
@@ -230,29 +231,32 @@ def handleHouse():
             "houseid": filterData[0],
             "area_misc": filterData[1],
             "address": filterData[2],
-            "title": filterData[3],
-            "photo_src": filterData[4],
-            "layout_misc": filterData[5],
-            "house_price": filterData[6],
-            "house_price_unit": filterData[7],
-            "area_price": filterData[8],
-            "house_size": filterData[9],
-            "photos": filterData[10], 
-            "age": filterData[11], 
-            "floor": filterData[12], 
-            "direction": filterData[13], 
-            "im_name": filterData[14], 
-            "company_name": filterData[15], 
-            "statusquo": filterData[16], 
-            "shape": filterData[17], 
-            "fitment": filterData[18], 
-            "managefee": filterData[19], 
-            "isrent_ing": filterData[20], 
-            "parking": filterData[21], 
-            "area_main": filterData[22], 
-            "area_sub": filterData[23], 
-            "area_land": filterData[24], 
-            "remark": filterData[25]
+            "all_addr":filterData[3],
+            "title": filterData[4],
+            "photo_src": filterData[5],
+            "layout_misc": filterData[6],
+            "house_price": filterData[7],
+            "house_price_unit": filterData[8],
+            "area_price": filterData[9],
+            "house_size": filterData[10],
+            "photos": filterData[11], 
+            "age": filterData[12], 
+            "floor": filterData[13], 
+            "direction": filterData[14], 
+            "im_name": filterData[15], 
+            "company_name": filterData[16], 
+            "statusquo": filterData[17], 
+            "shape": filterData[18], 
+            "fitment": filterData[19], 
+            "managefee": filterData[20], 
+            "isrent_ing": filterData[21], 
+            "parking": filterData[22], 
+            "area_main": filterData[23], 
+            "area_sub": filterData[24], 
+            "area_land": filterData[25], 
+            "community": filterData[26],
+            "remark": filterData[27],
+            "house_life": filterData[28]
         }
 
         # 實價登錄
@@ -260,7 +264,7 @@ def handleHouse():
         print(searchAddress)
         searchRoad=searchAddress[1]
         print(searchRoad)
-        filterStatement = f"select address, date, floor, total_floor, building_state, house_age, building_size, pattern_room, pattern_hall, total_price, unit_price, cart_price from deal where address like '%"+searchRoad+"%' order by date desc"
+        filterStatement = f"select address, date, floor, total_floor, building_state, complete_years, building_size, pattern_room, pattern_hall, total_price, unit_price, parking_price from deal where address like '%"+searchRoad+"%' order by date desc"
         cursor.execute(filterStatement)
         filterData2=cursor.fetchall() #取得物件
         print("filterData2")
@@ -274,13 +278,13 @@ def handleHouse():
                     "floor": item[2],
                     "total_floor": item[3],
                     "building_state": item[4],
-                    "house_age": item[5],
+                    "complete_years": item[5],
                     "building_size": item[6],
                     "pattern_room": item[7],
                     "pattern_hall": item[8],
                     "total_price": item[9],
                     "unit_price": item[10],
-                    "cart_price": item[11]
+                    "parking_price": item[11]
                 })
 
         # 關閉db連線
@@ -325,6 +329,8 @@ def handleHouse():
             status=500,
             content_type='application/json'
         )
+
+
 
 #啟動網站伺服器  
 if (os.environ['localdebug']=='true'):
